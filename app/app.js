@@ -7,7 +7,7 @@
 
 		.constant('API_URL', {
 			url: [
-				'http://localhost/api/users/asdasd',
+				'http://localhost/api/users/',
 				'./app/data.json'
 			]			
 		})
