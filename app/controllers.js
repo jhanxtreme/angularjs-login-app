@@ -105,8 +105,8 @@
 			var dummyUser = function(user){
 				if(user.email == "test@test.com" && user.password == "1234"){
 					sessionStorage.setItem('user_token', 'abcdefghijklmnopqrstuvwxyz'); //token
-					sessionStorage.setItem('jx_session_user', 'jhanxtreme@gmail.com (temporary user)'); // email
-					$rootScope.jxUser = 'jhanxtreme@gmail.com';
+					sessionStorage.setItem('jx_session_user', 'test@test.com (temporary user)'); // email
+					$rootScope.jxUser = 'test@test.com';
 					$scope.alertMessage = 'a member';
 					$scope.isValidUser = AuthUser.isLogin();
 					$rootScope.isUserLogin = AuthUser.isLogin();

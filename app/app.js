@@ -7,7 +7,7 @@
 
 		.constant('API_URL', {
 			url: [
-				'http://localhost/api/users/',
+				'http://localhost/api/users/asdasd',
 				'./app/data.json'
 			]			
 		})
@@ -42,7 +42,7 @@
 			$rootScope.$watch('isUserLogin', function(){
 				$rootScope.isUserLogin = AuthUser.isLogin(); // return boolean true if user logged in
 				$rootScope.jxUser = AuthUser.getUserEmail(); // return email when the user is logged in
-				console.log('Current user is logged in.');
+				//console.log('Current user is logged in.');
 			});
 
 		}]);
