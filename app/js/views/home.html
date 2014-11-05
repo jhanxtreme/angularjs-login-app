@@ -1,0 +1,7 @@
+<h1>{{ title }}</h1>
+
+	<div class="row">
+		<div class="col-xs-3" ng-repeat="animal in animals | orderBy:'name'" style="margin:0 0 1em 0; width: 235px; height:168px; overflow:hidden;">
+			<img ng-src="{{animal.src}}" />
+		</div>
+	</div>	
